@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>STARCOM 21 | Personnel Roster</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="top">
+    <div class="bar">
+      <a class="brand" href="./index.html">STARCOM <b>21</b></a>
+      <div class="nav">
+        <a href="./index.html">Dispatch Console</a>
+        <a href="./quick-reference.html">Quick Reference</a>
+        <a href="./sop.html">SOP Manual</a>
+        <a class="active" href="./roster.html">Roster</a>
+      </div>
+    </div>
+  </div>
+
+  <main class="wrap roster-wrap">
+    <section class="roster-hero">
+      <div class="eyebrow">Prairie State Roleplay · Communications Division</div>
+      <h1>STARCOM 21 Personnel Roster</h1>
+      <p>Communications personnel listed in chain-of-command order. Only call sign, name, and rank are displayed.</p>
+      <div class="roster-stats">
+        <div><strong>2</strong><span>Command</span></div>
+        <div><strong>4</strong><span>Dispatchers</span></div>
+        <div><strong>0</strong><span>Trainees Assigned</span></div>
+      </div>
+    </section>
+
+    <section class="roster-section">
+      <div class="roster-section-head">
+        <span class="roster-kicker">COMMAND</span>
+        <h2>Command &amp; Supervisors</h2>
+      </div>
+      <div class="roster-table-wrap">
+        <table class="roster-table">
+          <thead><tr><th>Call Sign</th><th>Name</th><th>Rank</th></tr></thead>
+          <tbody>
+            <tr><td><span class="callsign">D-1</span></td><td>F. Torres</td><td><span class="rank rank-director">Director</span></td></tr>
+            <tr><td><span class="callsign">D-2</span></td><td>M. Callenas</td><td><span class="rank rank-supervisor">Supervisor</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="roster-section">
+      <div class="roster-section-head">
+        <span class="roster-kicker">OPERATIONS</span>
+        <h2>Dispatchers</h2>
+      </div>
+      <div class="roster-table-wrap">
+        <table class="roster-table">
+          <thead><tr><th>Call Sign</th><th>Name</th><th>Rank</th></tr></thead>
+          <tbody>
+            <tr><td><span class="callsign">D-11</span></td><td>B. Fields</td><td><span class="rank rank-dispatcher">Dispatcher</span></td></tr>
+            <tr><td><span class="callsign">D-12</span></td><td>J. Shultz</td><td><span class="rank rank-dispatcher">Dispatcher</span></td></tr>
+            <tr><td><span class="callsign">D-13</span></td><td>J. Baker</td><td><span class="rank rank-dispatcher">Dispatcher</span></td></tr>
+            <tr><td><span class="callsign">D-14</span></td><td>R. Norman</td><td><span class="rank rank-dispatcher">Dispatcher</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="roster-section">
+      <div class="roster-section-head">
+        <span class="roster-kicker">TRAINING</span>
+        <h2>Trainee Dispatchers</h2>
+      </div>
+      <div class="empty-roster">No trainee dispatchers are currently assigned.</div>
+    </section>
+
+    <section class="command-diagram">
+      <div class="roster-section-head centered">
+        <span class="roster-kicker">ORGANIZATION</span>
+        <h2>Chain of Command</h2>
+        <p>Visual personnel structure for STARCOM 21 Communications.</p>
+      </div>
+      <div class="org-chart">
+        <div class="org-level">
+          <div class="org-person command"><span>D-1</span><strong>F. Torres</strong><small>Director</small></div>
+        </div>
+        <div class="org-line vertical"></div>
+        <div class="org-level">
+          <div class="org-person supervisor"><span>D-2</span><strong>M. Callenas</strong><small>Supervisor</small></div>
+        </div>
+        <div class="org-line vertical"></div>
+        <div class="org-branch-line"></div>
+        <div class="org-level dispatcher-level">
+          <div class="org-person"><span>D-11</span><strong>B. Fields</strong><small>Dispatcher</small></div>
+          <div class="org-person"><span>D-12</span><strong>J. Shultz</strong><small>Dispatcher</small></div>
+          <div class="org-person"><span>D-13</span><strong>J. Baker</strong><small>Dispatcher</small></div>
+          <div class="org-person"><span>D-14</span><strong>R. Norman</strong><small>Dispatcher</small></div>
+        </div>
+        <div class="org-line vertical trainee-line"></div>
+        <div class="org-level">
+          <div class="org-person vacant"><span>D-100+</span><strong>Trainee Dispatchers</strong><small>Currently Vacant</small></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="foot">Prairie State Roleplay · Communications Division · STARCOM 21 Dispatch</div>
+  <script src="./app.js"></script>
+</body>
+</html>
