@@ -273,3 +273,37 @@ a {
   font-size:36px}
 
 }
+
+
+/* ===== STARCOM 21 SOP MANUAL ===== */
+.sop-wrap { max-width: 1500px; }
+.sop-hero { margin-bottom: 24px; }
+.sop-hero h1 { max-width: 1000px; }
+.sop-badges { display:flex; flex-wrap:wrap; gap:8px; margin-top:20px; }
+.sop-badges span { border:1px solid var(--line); background:#091725; color:var(--muted); border-radius:999px; padding:7px 11px; font-size:12px; font-weight:700; }
+.roleplay-notice { margin-top:20px; padding:14px 16px; border:1px solid #765f1d; border-left:4px solid var(--warn); background:rgba(255,209,102,.07); border-radius:12px; color:#f6e8b3; }
+.sop-layout { display:grid; grid-template-columns:290px minmax(0,1fr); gap:28px; align-items:start; }
+.sop-toc { position:sticky; top:94px; max-height:calc(100vh - 116px); overflow:auto; padding:14px; border:1px solid var(--line); border-radius:16px; background:rgba(15,30,49,.92); }
+.sop-toc-title { color:var(--cyan); font-size:11px; font-weight:900; letter-spacing:.15em; padding:4px 8px 10px; }
+.sop-toc a { display:block; padding:8px 9px; border-radius:8px; color:var(--muted); font-size:12px; line-height:1.25; }
+.sop-toc a:hover { color:white; background:var(--panel2); }
+.sop-home-link { border-bottom:1px solid var(--line); margin-bottom:7px; }
+.sop-document { min-width:0; padding:30px 34px; border:1px solid var(--line); border-radius:20px; background:linear-gradient(180deg,rgba(15,30,49,.96),rgba(9,23,37,.96)); box-shadow:0 24px 70px rgba(0,0,0,.2); }
+.sop-document h1 { font-size:32px; margin:38px 0 15px; padding-top:12px; border-top:1px solid var(--line); }
+.sop-document h1:first-child { margin-top:0; border-top:0; }
+.sop-document h2 { color:var(--cyan); font-size:23px; margin:32px 0 12px; }
+.sop-document h3 { color:#dbeeff; font-size:17px; margin:24px 0 9px; }
+.sop-document p, .sop-document li { color:#d2deeb; }
+.sop-document strong { color:white; }
+.sop-document ul, .sop-document ol { padding-left:24px; }
+.sop-document li { margin:7px 0; }
+.sop-document blockquote { margin:16px 0; padding:12px 16px; border-left:4px solid var(--blue); background:var(--panel2); border-radius:0 10px 10px 0; }
+.sop-document table { width:100%; border-collapse:separate; border-spacing:0; margin:16px 0 24px; font-size:13px; border:1px solid var(--line); border-radius:12px; overflow:hidden; }
+.sop-document th { text-align:left; color:white; background:#155a99; padding:10px 12px; }
+.sop-document td { color:#d2deeb; background:#0b1929; padding:9px 12px; border-top:1px solid var(--line); vertical-align:top; }
+.sop-document tr:nth-child(even) td { background:#0f2034; }
+.sop-document hr { border:0; border-top:1px solid var(--line); margin:28px 0; }
+.sop-card { border-color:#2d78b8; background:linear-gradient(135deg,#102b48,#0f1e31); }
+.nav a.active { color:white; background:var(--panel2); border-color:var(--cyan); }
+@media(max-width:1050px) { .sop-layout { grid-template-columns:1fr; } .sop-toc { position:relative; top:auto; max-height:320px; } }
+@media(max-width:650px) { .sop-document { padding:20px 16px; } .sop-document table { display:block; overflow-x:auto; white-space:normal; } .sop-hero { padding:26px 20px; } }
