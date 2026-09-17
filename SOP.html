@@ -1,0 +1,2078 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>STARCOM 21 | SOP & Training Manual</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="top">
+    <div class="bar">
+      <a class="brand" href="./index.html">STARCOM <b>21</b></a>
+      <div class="nav">
+        <a href="./index.html">Dispatch Console</a>
+        <a href="./quick-reference.html">Quick Reference</a>
+        <a class="active" href="./sop.html">SOP Manual</a>
+      </div>
+    </div>
+  </div>
+
+  <main class="wrap sop-wrap">
+    <section class="hero sop-hero">
+      <div class="eyebrow">Prairie State Roleplay · Communications Division</div>
+      <h1>STARCOM 21 SOP &amp; Training Manual</h1>
+      <p>Law Enforcement · Fire · Emergency Medical Services</p>
+      <div class="sop-badges">
+        <span>Community: Prairie State Roleplay</span>
+        <span>CAD: Sonoran CAD</span>
+        <span>Document Owner: Communications Command</span>
+      </div>
+      <div class="roleplay-notice"><strong>ROLEPLAY NOTICE:</strong> This manual governs fictional FiveM roleplay only. It does not authorize access to real public-safety databases, emergency telephone systems, or radio networks.</div>
+    </section>
+
+    <div class="sop-layout">
+      <aside class="sop-toc">
+        <div class="sop-toc-title">MANUAL NAVIGATION</div>
+        <a href="#top" class="sop-home-link">Top of Manual</a>
+        <a href="#appendix-a-acronyms-and-definitions">Appendix A. Acronyms and Definitions</a>
+<a href="#appendix-c-cad-commands-and-status-codes">Appendix C. CAD Commands and Status Codes</a>
+<a href="#appendix-e-scenario-bank-and-knowledge-check">Appendix E. Scenario Bank and Knowledge Check</a>
+<a href="#appendix-g-local-agency-and-unit-numbering">Appendix G. Local Agency and Unit Numbering</a>
+<a href="#appendix-i-radio-alert-tone-and-paging-reference">Appendix I. Radio, Alert-Tone, and Paging Reference</a>
+<a href="#1-authority-scope-and-mission">1. Authority, Scope, and Mission</a>
+<a href="#1-immediate-threat-to-life-or-responder-safety">1. Immediate threat to life or responder safety</a>
+<a href="#3-timely-dispatch-and-resource-coordination">3. Timely dispatch and resource coordination</a>
+<a href="#5-complete-cad-documentation">5. Complete CAD documentation</a>
+<a href="#2-organization-roles-and-conduct">2. Organization, Roles, and Conduct</a>
+<a href="#3-communications-center-operations">3. Communications-Center Operations</a>
+<a href="#4-call-taking-and-information-control">4. Call Taking and Information Control</a>
+<a href="#1-where-obtain-the-exact-location-first-including-cross-streets-direction-of-travel-floor-apartment-landmark-or-postal">1. WHERE: Obtain the exact location first, including cross streets, direction of travel, floor, apartment, landmark, or postal.</a>
+<a href="#3-when-establish-whether-the-event-is-in-progress-just-occurred-delayed-or-historical">3. WHEN: Establish whether the event is in progress, just occurred, delayed, or historical.</a>
+<a href="#5-weapons-hazards-ask-directly-when-violence-threats-fire-chemicals-or-unsafe-conditions-are-possible">5. WEAPONS / HAZARDS: Ask directly when violence, threats, fire, chemicals, or unsafe conditions are possible.</a>
+<a href="#7-callback-confirm-caller-name-number-or-identifier-and-safe-contact-method">7. CALLBACK: Confirm caller name, number or identifier, and safe contact method.</a>
+<a href="#5-call-priorities-and-dispatch-decisions">5. Call Priorities and Dispatch Decisions</a>
+<a href="#6-radio-operations">6. Radio Operations</a>
+<a href="#7-cad-operations-and-unit-status">7. CAD Operations and Unit Status</a>
+<a href="#8-law-enforcement-dispatch">8. Law-Enforcement Dispatch</a>
+<a href="#1-immediately-hold-the-primary-channel-for-priority-traffic">1. Immediately hold the primary channel for priority traffic.</a>
+<a href="#3-assign-a-secondary-unit-and-supervisor-when-available">3. Assign a secondary unit and supervisor when available.</a>
+<a href="#5-coordinate-channel-patch-aviation-spikes-roadblocks-or-mutual-aid-only-under-community-policy">5. Coordinate channel patch, aviation, spikes, roadblocks, or mutual aid only under community policy.</a>
+<a href="#9-fire-and-ems-dispatch">9. Fire and EMS Dispatch</a>
+<a href="#1-select-the-correct-fictional-agency-assignment-and-paging-group-verify-the-incident-and-channel-before-transmitting">1. Select the correct fictional agency assignment and paging group; verify the incident and channel before transmitting.</a>
+<a href="#3-repeat-the-same-message-three-times-unless-community-policy-specifies-a-different-automation">3. Repeat the same message three times unless community policy specifies a different automation.</a>
+<a href="#10-critical-and-high-risk-incidents">10. Critical and High-Risk Incidents</a>
+<a href="#1-stop-routine-transmissions-and-acknowledge-the-emergency">1. Stop routine transmissions and acknowledge the emergency.</a>
+<a href="#3-dispatch-the-nearest-appropriate-units-and-supervisor">3. Dispatch the nearest appropriate units and supervisor.</a>
+<a href="#5-maintain-the-channel-restriction-and-document-times-actions">5. Maintain the channel restriction and document times/actions.</a>
+<a href="#11-records-returns-and-simulated-hits">11. Records Returns and Simulated Hits</a>
+<a href="#1-compare-the-inquiry-with-the-return-for-exact-or-reasonably-close-identifiers">1. Compare the inquiry with the return for exact or reasonably close identifiers.</a>
+<a href="#3-confirm-or-obtain-the-requesting-unit-s-location-before-broadcasting-sensitive-hit-information">3. Confirm or obtain the requesting unit’s location before broadcasting sensitive hit information.</a>
+<a href="#5-after-acknowledgment-disseminate-information-in-the-standard-order-below">5. After acknowledgment, disseminate information in the standard order below.</a>
+<a href="#7-document-the-return-confirmation-and-disposition-in-the-incident-timeline">7. Document the return, confirmation, and disposition in the incident timeline.</a>
+<a href="#12-interoperability-mutual-aid-and-special-events">12. Interoperability, Mutual Aid, and Special Events</a>
+<a href="#13-documentation-quality-assurance-and-complaints">13. Documentation, Quality Assurance, and Complaints</a>
+<a href="#14-communications-training-program">14. Communications Training Program</a>
+<a href="#15-evaluation-remediation-and-release">15. Evaluation, Remediation, and Release</a>
+<a href="#appendix-a-acronyms-and-definitions">Appendix A. Acronyms and Definitions</a>
+<a href="#appendix-b-person-and-vehicle-descriptions">Appendix B. Person and Vehicle Descriptions</a>
+<a href="#appendix-c-cad-commands-and-status-codes">Appendix C. CAD Commands and Status Codes</a>
+<a href="#appendix-d-broadcast-and-call-templates">Appendix D. Broadcast and Call Templates</a>
+<a href="#appendix-e-scenario-bank-and-knowledge-check">Appendix E. Scenario Bank and Knowledge Check</a>
+<a href="#appendix-f-daily-observation-report-and-sign-off">Appendix F. Daily Observation Report and Sign-Off</a>
+<a href="#appendix-g-local-agency-and-unit-numbering">Appendix G. Local Agency and Unit Numbering</a>
+<a href="#appendix-h-approved-ten-code-reference">Appendix H. Approved Ten-Code Reference</a>
+<a href="#appendix-i-radio-alert-tone-and-paging-reference">Appendix I. Radio, Alert-Tone, and Paging Reference</a>
+<a href="#appendix-j-phonetic-alphabet">Appendix J. Phonetic Alphabet</a>
+      </aside>
+
+      <article class="sop-document" id="top">
+        <p>COMMUNICATIONS DIVISION 
+**STARCOM 21DISPATCH **
+**SOP &amp; TRAINING MANUAL **
+Law Enforcement  |  Fire  |  Emergency Medical Services* *</p>
+<table>
+<thead>
+<tr>
+  <th>**  Document Field**</th>
+  <th>**  Value**</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Community</td>
+  <td>Prairie State Roleplay</td>
+</tr>
+<tr>
+  <td>Communications Center</td>
+  <td>Starcom 21</td>
+</tr>
+<tr>
+  <td>CAD Platform</td>
+  <td>Sonoran CAD</td>
+</tr>
+<tr>
+  <td>Radio Platform</td>
+  <td>[ VOICE PLATFORM / CHANNEL PLAN]</td>
+</tr>
+<tr>
+  <td>Effective Date</td>
+  <td></td>
+</tr>
+<tr>
+  <td>Approved By</td>
+  <td>[NAME / RANK]</td>
+</tr>
+<tr>
+  <td>Document Owner</td>
+  <td>Communications Command</td>
+</tr>
+</tbody>
+</table>
+<p><strong>ROLEPLAY NOTICE:</strong> This manual governs fictional FiveM roleplay only. It does not authorize access to NCIC, LEADS, CJIS, emergency telephone systems, or any real public-safety database or radio network. </p>
+<p>**Document Control **</p>
+<table>
+<thead>
+<tr>
+  <th>**  Version**</th>
+  <th>**  Date**</th>
+  <th>**  Author/Approver**</th>
+  <th>**  Summary**</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>1.0</td>
+  <td>8/27/2026</td>
+  <td>Justin Shultz</td>
+  <td>Initial release</td>
+</tr>
+<tr>
+  <td>1.1</td>
+  <td>[DATE]</td>
+  <td>[NAME / RANK]</td>
+  <td>Added local unit numbering, ten-code,radio/paging , and phonetic references.</td>
+</tr>
+</tbody>
+</table>
+<p>**Approval and Acknowledgment **
+All dispatch personnel shall read this manual, complete assigned training, and follow later-issued written directives. When a conflict exists, the most recent approved directive controls. Supervisors may make reasonable operational decisions during unusual roleplay incidents and shall document major deviations. </p>
+<p>**How to Use This Manual **</p>
+<ul>
+<li>Part I establishes policy and routine operating procedures. </li>
+</ul>
+<ul>
+<li>Part II defines radio, call-taking, CAD, and incident workflows. </li>
+</ul>
+<ul>
+<li>Part III provides the Communications Training Program, evaluations, and qualification standards. </li>
+</ul>
+<ul>
+<li>Appendices contain quick-reference formats, templates, and customizable server data. </li>
+</ul>
+<p>**Table of Contents **</p>
+<ul>
+<li>1. Authority, Scope, and Mission </li>
+</ul>
+<ul>
+<li>2. Organization, Roles, and Conduct </li>
+</ul>
+<ul>
+<li>3. Communications-Center Operations </li>
+</ul>
+<ul>
+<li>4. Call Taking and Information Control </li>
+</ul>
+<ul>
+<li>5. Call Priorities and Dispatch Decisions </li>
+</ul>
+<ul>
+<li>6. Radio Operations </li>
+</ul>
+<ul>
+<li>7. CAD Operations and Unit Status </li>
+</ul>
+<ul>
+<li>8. Law-Enforcement Dispatch </li>
+</ul>
+<ul>
+<li>9. Fire and EMS Dispatch </li>
+</ul>
+<ul>
+<li>10. Critical and High-Risk Incidents </li>
+</ul>
+<ul>
+<li>11. Records Returns and Simulated Hits </li>
+</ul>
+<ul>
+<li>12. Interoperability, Mutual Aid, and Special Events </li>
+</ul>
+<ul>
+<li>13. Documentation, Quality Assurance, and Complaints </li>
+</ul>
+<ul>
+<li>14. Communications Training Program </li>
+</ul>
+<ul>
+<li>15. Evaluation, Remediation, and Release </li>
+</ul>
+<ul>
+<li>Appendix A. Acronyms and Definitions </li>
+</ul>
+<ul>
+<li>Appendix B. Person and Vehicle Descriptions </li>
+</ul>
+<ul>
+<li>Appendix C. CAD Commands and Status Codes </li>
+</ul>
+<ul>
+<li>Appendix D. Broadcast and Call Templates </li>
+</ul>
+<ul>
+<li>Appendix E. Scenario Bank and Knowledge Check </li>
+</ul>
+<ul>
+<li>Appendix F. Daily Observation Report and Sign-Off </li>
+</ul>
+<ul>
+<li>Appendix G. Local Agency and Unit Numbering </li>
+</ul>
+<ul>
+<li>Appendix H. Approved Ten-Code Reference </li>
+</ul>
+<ul>
+<li>Appendix I. Radio, Alert-Tone, and Paging Reference </li>
+</ul>
+<ul>
+<li>Appendix J. Phonetic Alphabet </li>
+</ul>
+<p><strong>1. Authority, Scope, and Mission **
+**1.1 Purpose **
+This manual establishes uniform, realistic, and playable dispatch procedures for a fictional multi-agency FiveM community. It supports consistent service to law-enforcement, fire, and EMS role-player's while preserving dispatcher judgment, scene flow, and community rules. 
+**1.2 Mission **
+**MISSION:</strong> Receive, prioritize, document, dispatch, and coordinate incidents with accuracy, calm professionalism, and responder safety as the primary operational concern. </p>
+<p>**1.3 Order of Priorities **</p>
+<ol>
+<li>Immediate threat to life or responder safety </li>
+</ol>
+<ol start="2">
+<li>Accurate location and incident information </li>
+</ol>
+<ol start="3">
+<li>Timely dispatch and resource coordination </li>
+</ol>
+<ol start="4">
+<li>Clear, brief, and professional radio traffic </li>
+</ol>
+<ol start="5">
+<li>Complete CAD documentation </li>
+</ol>
+<p>**1.4 Applicability **
+This manual applies to dispatchers, call takers, communications supervisors, trainers, and members temporarily assigned to the communications center. It also establishes the information and radio formats field units are expected to provide. 
+**1.5 Policy Hierarchy **</p>
+<table>
+<thead>
+<tr>
+  <th>**  Level**</th>
+  <th>**  Authority**</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>1</td>
+  <td>Community rules, platform terms, and leadership directives</td>
+</tr>
+<tr>
+  <td>2</td>
+  <td>This approved SOP and later general orders</td>
+</tr>
+<tr>
+  <td>3</td>
+  <td>Division guides, channel plans, and quick-reference cards</td>
+</tr>
+<tr>
+  <td>4</td>
+  <td>Supervisor direction during an active incident</td>
+</tr>
+</tbody>
+</table>
+<p>**2. Organization, Roles, and Conduct **
+**2.1 Communications Roles **</p>
+<table>
+<thead>
+<tr>
+  <th>**  Role**</th>
+  <th>**  Primary Responsibilities**</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Communications Director</td>
+  <td>Policy, staffing, access, discipline, and final operational authority.</td>
+</tr>
+<tr>
+  <td>Shift Supervisor</td>
+  <td>Channel oversight, incident coordination, staffing changes, and problem resolution.</td>
+</tr>
+<tr>
+  <td>CTO</td>
+  <td>Structured instruction, coaching, Daily Observation Reports, and phase recommendations.</td>
+</tr>
+<tr>
+  <td>Dispatcher</td>
+  <td>Radio traffic, unit status, dispatch, timers, and responder-safety monitoring. Caller interview, CAD entry, updates, callback, and supporting documentation.</td>
+</tr>
+<tr>
+  <td>Trainee</td>
+  <td>Performs assigned duties under direct supervision and accepts correction promptly.</td>
+</tr>
+</tbody>
+</table>
+<p>**2.2 Standards of Conduct **</p>
+<ul>
+<li>Remain neutral, respectful, and calm. Dispatch does not argue over the radio. </li>
+</ul>
+<ul>
+<li>Do not use information learned through dispatch to benefit an alternate character or faction. </li>
+</ul>
+<ul>
+<li>Do not fabricate caller details, database returns, warrants, or unit status unless permitted by a documented scenario or server mechanic. </li>
+</ul>
+<ul>
+<li>Protect private community information, staff discussions, and restricted CAD data. </li>
+</ul>
+<ul>
+<li>Avoid unnecessary soundboards, side conversations, music, and nonessential radio traffic while on duty. </li>
+</ul>
+<p>**2.3 Chain of Command **
+Routine concerns move from dispatcher to shift supervisor, then to Communications Command. An immediate safety issue may be raised directly and without delay. Operational disagreements are resolved after the incident unless continuing the action creates a serious safety or rule-compliance problem. </p>
+<p>**3. Communications-Center Operations **
+**3.1 Beginning-of-Shift Checklist **
+☐ Join the correct dispatch voice channel and set an available status. 
+☐ Open CAD, verify dispatcher permissions, and review active calls. 
+☐ Confirm law, fire, EMS, tactical, and mutual-aid channel assignments. 
+☐ Run a radio check when required and announce that dispatch is in service. 
+☐ Record the on-duty dispatcher and supervisor in the activity log. 
+**3.2 Position Discipline **
+The dispatcher maintains the radio and active-call board. A trainee dispatcher shall not independently change priorities, close calls, or move units from critical incidents without coordination. When one person fills both positions, radio safety takes priority over administrative updates. 
+**3.3 Transfer of Control **
+The outgoing dispatcher shall verbally identify all priority incidents and unresolved safety information. The incoming dispatcher confirms control of the channel. Dispatch positions shall not be abandoned without relief except during an actual technical failure or emergency. 
+**3.4 Ending-of-Shift Checklist **
+☐ Resolve or clearly transfer all open calls and timers. 
+☐ Correct incomplete unit statuses and attach essential notes. 
+☐ Transfer current BOLOs, pursuits, perimeters, major incidents, and pending requests. 
+☐ Log significant technical or conduct issues. 
+☐ Announce the change of dispatcher only when operationally useful. 
+**4. Call Taking and Information Control **
+**4.1 Core Interview Sequence **</p>
+<ol>
+<li>WHERE: Obtain the exact location first, including cross streets, direction of travel, floor, apartment, landmark, or postal. </li>
+</ol>
+<ol start="2">
+<li>WHAT: Determine what is happening now and what prompted the call. </li>
+</ol>
+<ol start="3">
+<li>WHEN: Establish whether the event is in progress, just occurred, delayed, or historical. </li>
+</ol>
+<ol start="4">
+<li>WHO: Identify involved people, roles, descriptions, names, and relationship. </li>
+</ol>
+<ol start="5">
+<li>WEAPONS / HAZARDS: Ask directly when violence, threats, fire, chemicals, or unsafe conditions are possible. </li>
+</ol>
+<ol start="6">
+<li>INJURIES: Determine number of patients, consciousness, breathing, entrapment, and immediate hazards. </li>
+</ol>
+<ol start="7">
+<li>CALLBACK: Confirm caller name, number or identifier, and safe contact method. </li>
+</ol>
+<ol start="8">
+<li>UPDATE: Keep the call open when appropriate and relay material changes immediately. </li>
+</ol>
+<p><strong>SAFETY RULE:</strong> Do not delay dispatch of an obvious Priority 1 call merely to complete every question. Create and dispatch the call once minimum actionable information is available, then update responding units. </p>
+<p>**4.2 Minimum CAD Entry **</p>
+<table>
+<thead>
+<tr>
+  <th>**  Required Field**</th>
+  <th>**  Standard**</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Location</td>
+  <td>Validated address, intersection, landmark, postal, or map coordinate.</td>
+</tr>
+<tr>
+  <td>Type</td>
+  <td>Most accurate available call type; update if facts change.</td>
+</tr>
+<tr>
+  <td>Priority</td>
+  <td>Assigned from the approved priority matrix.</td>
+</tr>
+<tr>
+  <td>Narrative</td>
+  <td>Plain-language facts, not conclusions or jokes.</td>
+</tr>
+<tr>
+  <td>Source</td>
+  <td>Caller, officer, alarm, passerby, automated report, or self-initiated unit.</td>
+</tr>
+<tr>
+  <td>Safety</td>
+  <td>Weapons, threats, hazards, cautions, and involved descriptions placed prominently.</td>
+</tr>
+<tr>
+  <td>Updates</td>
+  <td>Time-ordered material changes and unit requests.</td>
+</tr>
+</tbody>
+</table>
+<p>**4.3 Caller-Control Practices **</p>
+<ul>
+<li>Use one question at a time and interrupt politely when necessary to secure location or safety details. </li>
+</ul>
+<ul>
+<li>Do not promise a response time, outcome, arrest, citation, or specific number of units. </li>
+</ul>
+<ul>
+<li>If a caller disconnects during an emergency, attempt callback when the platform supports it and document the result. </li>
+</ul>
+<ul>
+<li>Translate emotional statements into objective CAD notes without stripping useful urgency. </li>
+</ul>
+<p>**5. Call Priorities and Dispatch Decisions **</p>
+<table>
+<thead>
+<tr>
+  <th>**  Priority**</th>
+  <th><strong>Definition</strong></th>
+  <th><strong>Examples</strong></th>
+  <th><strong>Dispatch Goal</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>P1 - Emergency</td>
+  <td>Immediate threat to life, responder distress, or catastrophic property danger.</td>
+  <td>Shots fired; officer needs help; active fire with occupants; cardiac arrest; major rescue.</td>
+  <td>Immediate tone/dispatch; hold routine traffic.</td>
+</tr>
+<tr>
+  <td>P2 - Urgent</td>
+  <td>Serious in-progress or  just-occurred event with meaningful risk.</td>
+  <td>Domestic disturbance; injury crash; burglary in progress; unstable patient.</td>
+  <td>Dispatch promptly; advise nearby units.</td>
+</tr>
+<tr>
+  <td>P3 - Routine</td>
+  <td>No immediate threat; timely response still needed.</td>
+  <td>Delayed theft; non-injury crash; suspicious activity; routine medical request.</td>
+  <td>Dispatch by availability and geography.</td>
+</tr>
+<tr>
+  <td>P4 - Administrative</td>
+  <td>Low-risk service or documentation request.</td>
+  <td>VIN check; civil standby request; found property; information call.</td>
+  <td>Queue or refer under local policy.</td>
+</tr>
+</tbody>
+</table>
+<p>**5.1 Priority Changes **
+A dispatcher may raise or lower a priority when new facts materially change risk. Enter the reason in CAD. Notify assigned units when the change affects response mode, resources, or scene safety. 
+**5.2 Resource Selection **</p>
+<ul>
+<li>Use closest-appropriate and agency-jurisdiction principles while considering current workload and specialty needs. </li>
+</ul>
+<ul>
+<li>Do not strip coverage for routine calls. Ask a supervisor when an incident requires a major commitment. </li>
+</ul>
+<ul>
+<li>Cross-dispatch fire, EMS, or law enforcement when the call contains a credible need for another discipline. </li>
+</ul>
+<p>**6. Radio Operations **
+**6.1 Radio Standard **
+Transmissions shall be brief, clear, and in normal voice. Listen before keying, use the assigned call sign, pause after keying, and avoid stacking over emergency traffic. Plain language controls unless the community has approved a specific ten-code list. 
+**6.2 Radio Order **</p>
+<table>
+<thead>
+<tr>
+  <th><strong>Precedence</strong></th>
+  <th><strong>Traffic</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>1</td>
+  <td>Emergency button, officer distress, mayday, urgent responder-safety traffic.</td>
+</tr>
+<tr>
+  <td>2</td>
+  <td>Active pursuit, foot pursuit, armed event, fireground emergency, or rapidly changing hazard.</td>
+</tr>
+<tr>
+  <td>3</td>
+  <td>New P1/P2 dispatches and critical updates.</td>
+</tr>
+<tr>
+  <td>4</td>
+  <td>Returns, requests, unit status, and routine dispatches.</td>
+</tr>
+<tr>
+  <td>5</td>
+  <td>Administrative and nonessential traffic.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>6.3 Standard Dispatch Format **
+**FORMAT:</strong> UNIT(S) - CALL TYPE - LOCATION - ESSENTIAL SAFETY/DESCRIPTION - RESPONSE MODE - CAD NUMBER. </p>
+<p><em>Example: “2-Lincoln-12 and 2-Lincoln-14, domestic disturbance, 204 Alta Street, caller reports a male with a knife in the front yard, respond 10-33, call 2641.”</em> 
+**6.4 Acknowledgment and Repetition **</p>
+<ul>
+<li>Require acknowledgment for assignments, priority changes, emergency traffic, BOLOs, staging, and safety warnings. </li>
+</ul>
+<ul>
+<li>Repeat unit call sign, location, plate, and critical identifiers when a transmission is unclear or likely to be misheard. </li>
+</ul>
+<ul>
+<li>Use phonetic spelling for ambiguous names and plates according to the community phonetic alphabet. </li>
+</ul>
+<p>**6.5 Channel Restrictions **
+Dispatch may announce “priority traffic only” or “channel held” during a critical event. Routine units shall remain silent unless they have emergency or directly relevant traffic. Dispatch clears the restriction when conditions permit. 
+**6.6 Failed Welfare Check **
+If a field unit fails to respond to a status check, repeat the call sign, attempt the designated alternate contact, confirm last known location, and notify a supervisor. Escalate resources according to the officer-safety timer and community policy. 
+**6.7 Alert-Tone Plan **</p>
+<table>
+<thead>
+<tr>
+  <th><strong>Tone</strong></th>
+  <th><strong>Roleplay Use</strong></th>
+  <th><strong>Dispatcher Action</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Alert 1</td>
+  <td>Critical simulated records hit / responder-safety return.</td>
+  <td>Confirm the unit location, sound the tone, call the unit, and require acknowledgment before details.</td>
+</tr>
+<tr>
+  <td>Alert 2</td>
+  <td>Important all-units message, including a 10-68 / BOLO.</td>
+  <td>Sound the configured tone, pause, and broadcast the message in the approved format.</td>
+</tr>
+<tr>
+  <td>Alert 3</td>
+  <td>Severe-weather or community emergency message.</td>
+  <td>Sound the configured tone and give the source, affected area, hazard, and requested action.</td>
+</tr>
+</tbody>
+</table>
+<p>**6.8 Backup Voice Procedure **
+If the primary voice channel fails, announce the move by CAD or approved text, switch to [BACKUP], conduct a roll call of active units, and restrict traffic until accountability is restored. A second dispatcher should maintain the written/CAD log when staffing permits. Physical facility-access controls are outside this roleplay SOP unless the server explicitly simulates them under approved permissions. 
+**7. CAD Operations and Unit Status **</p>
+<p>**7.1 CAD Principles **</p>
+<ul>
+<li>CAD is the official roleplay incident timeline. Enter actions when they occur and correct errors transparently. </li>
+</ul>
+<ul>
+<li>Never delete safety-relevant history merely to make a call look cleaner. </li>
+</ul>
+<ul>
+<li>Use concise notes with source attribution: “CALLER STATES,” “UNIT ADVISES,” or “SYSTEM RETURN.” </li>
+</ul>
+<ul>
+<li>Separate people, vehicles, locations, and property into the proper records when the CAD supports it. </li>
+</ul>
+<p>**7.2 Unit Status Definitions **</p>
+<table>
+<thead>
+<tr>
+  <th><strong>Status</strong></th>
+  <th><strong>Meaning</strong></th>
+  <th><strong>Dispatcher Action</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>10-41 / On Duty</td>
+  <td>Unit begins duty.</td>
+  <td>Add unit, agency, call sign, beat/assignment.</td>
+</tr>
+<tr>
+  <td>10-42 / Off Duty</td>
+  <td>Unit ends duty.</td>
+  <td>Confirm clear of calls; remove from active board.</td>
+</tr>
+<tr>
+  <td>10-8 / Available</td>
+  <td>Ready for assignment.</td>
+  <td>Place in service and available queue.</td>
+</tr>
+<tr>
+  <td>Dispatched</td>
+  <td>Attached but not yet responding.</td>
+  <td>Transmit assignment and await acknowledgment.</td>
+</tr>
+<tr>
+  <td>10-76 / En Route</td>
+  <td>Responding to call.</td>
+  <td>Start response timeline.</td>
+</tr>
+<tr>
+  <td>10-23 / Arrived</td>
+  <td>At scene.</td>
+  <td>Mark arrival; start applicable safety timer.</td>
+</tr>
+<tr>
+  <td>10-6 / Busy</td>
+  <td>Unavailable for a non-call activity.</td>
+  <td>Record reason if operationally relevant.</td>
+</tr>
+<tr>
+  <td>Transporting</td>
+  <td>Transporting person/patient.</td>
+  <td>Record destination and mileage only if community uses it.</td>
+</tr>
+<tr>
+  <td>At Destination</td>
+  <td>Arrived at hospital, jail, station, etc.</td>
+  <td>Update location and status.</td>
+</tr>
+<tr>
+  <td>Clear</td>
+  <td>Assignment complete.</td>
+  <td>Capture disposition and return unit to 10-8 unless otherwise stated.</td>
+</tr>
+</tbody>
+</table>
+<p>**7.3 Self-Initiated Activity **
+Traffic stops, suspicious-person checks, foot patrols, and similar activity shall receive a CAD event or attached activity record. At minimum capture unit, location, activity type, vehicle or subject description, plate when available, and start time. </p>
+<p>**7.4 Timers **</p>
+<table>
+<thead>
+<tr>
+  <th><strong>Timer</strong></th>
+  <th><strong>Suggested Default</strong></th>
+  <th><strong>Action at Expiration</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Traffic stop / person check</td>
+  <td>5 minutes</td>
+  <td>Attempt status check; escalate on no response.</td>
+</tr>
+<tr>
+  <td>Domestic / violent call</td>
+  <td>5 minutes after arrival</td>
+  <td>Check status unless active traffic makes it unnecessary.</td>
+</tr>
+<tr>
+  <td>Prisoner transport</td>
+  <td>10 minutes or route-based</td>
+  <td>Confirm status and destination when overdue.</td>
+</tr>
+<tr>
+  <td>Fire/EMS staging</td>
+  <td>5 minutes</td>
+  <td>Confirm staging location and command direction.</td>
+</tr>
+<tr>
+  <td>Custom</td>
+  <td>Supervisor-defined</td>
+  <td>Record reason and interval in CAD.</td>
+</tr>
+</tbody>
+</table>
+<p>**8. Law-Enforcement Dispatch **
+**8.1 Traffic Stops **
+Accept “traffic stop,” “10-11,” or the approved shortcut. Obtain unit, exact location, vehicle description, plate/state, occupancy when relevant, and direction of travel. Create or update the CAD event immediately and start the safety timer. 
+**8.2 Person and Plate Inquiries **</p>
+<ul>
+<li>Person query format: last name, first name, middle initial if present, date of birth, and sex or other CAD-required identifier. </li>
+</ul>
+<ul>
+<li>Plate query format: plate characters and state; add vehicle type or color if the system requires it. </li>
+</ul>
+<ul>
+<li>Read back critical returns in a consistent order: status, owner/name, vehicle/person identifiers, cautions, and active simulated wants. </li>
+</ul>
+<p>**8.3 Calls for Service **
+Dispatch the recommended number of units based on priority, risk, community staffing, and supervisor direction. Cross-dispatch fire/EMS when injuries, fire, overdose, exposure, rescue, or medical evaluation are reasonably indicated. </p>
+<p>**8.4 Pursuits **</p>
+<ol>
+<li>Immediately hold the primary channel for priority traffic. </li>
+</ol>
+<ol start="2">
+<li>Confirm pursuing unit, reason, location, direction, vehicle/person description, and current conditions. </li>
+</ol>
+<ol start="3">
+<li>Assign a secondary unit and supervisor when available. </li>
+</ol>
+<ol start="4">
+<li>Record continuous material updates without repeating every word. </li>
+</ol>
+<ol start="5">
+<li>Coordinate channel patch, aviation, spikes, roadblocks, or mutual aid only under community policy. </li>
+</ol>
+<ol start="6">
+<li>When terminated or concluded, confirm final location, custody/injuries, needed EMS, and channel release. </li>
+</ol>
+<p>**8.5 Foot Pursuits **
+Repeat the last location and direction, hold the channel, dispatch assistance, and track description, weapons, and containment points. Avoid repeatedly asking questions while the pursuing unit is transmitting. </p>
+<p><strong>9. Fire and EMS Dispatch **
+**9.1 Fire/EMS Call Minimums</strong>  </p>
+<table>
+<thead>
+<tr>
+  <th><strong>Category</strong></th>
+  <th><strong>Essential Information</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Medical</td>
+  <td>Location; age; chief complaint; consciousness; breathing; scene safety; number of patients.</td>
+</tr>
+<tr>
+  <td>Structure fire</td>
+  <td>Exact address; occupancy; smoke/flames; people trapped; building type; exposures; hazards.</td>
+</tr>
+<tr>
+  <td>Vehicle crash</td>
+  <td>Location/direction; number of vehicles; injuries; entrapment; fire; hazards; blocked lanes.</td>
+</tr>
+<tr>
+  <td>Hazardous condition</td>
+  <td>Material or hazard; symptoms; safe approach; wind/terrain if relevant; evacuation needs.</td>
+</tr>
+<tr>
+  <td>Rescue</td>
+  <td>Type; number involved; access; fall/water/height/confined-space hazards; specialized resources.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>9.2 Dispatch Format **
+**FIRE/EMS DISPATCH:</strong> ALERT TONE - AGENCY/UNITS - INCIDENT TYPE - LOCATION - KEY DETAILS - RESPONSE LEVEL - OPERATIONS CHANNEL. Repeat the address once. </p>
+<p><em>Example: “[Tone] County Fire and Medic 3, reported residential structure fire, 118 Panorama Drive, caller reports smoke from the second floor and one occupant unaccounted for. Respond emergency on Fire Ops 2.”</em> 
+**9.3 Medical Roleplay Boundaries **
+Dispatchers provide only community-approved scripted pre-arrival instructions. If no approved protocol exists, obtain updates, advise the caller to follow server mechanics, and keep responders informed. Do not present fictional instructions as real medical advice. 
+**9.4 Fireground Support **</p>
+<ul>
+<li>Record command designation, operational channel, staging location, assignments, alarms, and special resource requests. </li>
+</ul>
+<ul>
+<li>Repeat emergency traffic and mayday information immediately; clear the channel for command communications. </li>
+</ul>
+<ul>
+<li>Track mutual-aid units and significant benchmarks when staffing allows. </li>
+</ul>
+<p>**9.5 Fire/EMS Paging Procedure **</p>
+<ol>
+<li>Select the correct fictional agency assignment and paging group; verify the incident and channel before transmitting. </li>
+</ol>
+<ol start="2">
+<li>Activate the configured paging alert, key the channel, and read the approved dispatch message clearly. </li>
+</ol>
+<ol start="3">
+<li>Repeat the same message three times unless community policy specifies a different automation. </li>
+</ol>
+<ol start="4">
+<li>After the third transmission, state the current in-game time and monitor for acknowledgment or re-page instructions. </li>
+</ol>
+<p><strong>PAGING TEMPLATE:</strong> [TONE] [AGENCY/UNITS], respond to [INCIDENT] at [LOCATION]. [KEY DETAILS/HAZARDS]. Operate on [CHANNEL]. Repeat three times; then: “Time out [TIME].” </p>
+<p><em>Example: “[Tone] Harbor Fire, Engine 21 and Medic 26, commercial fire alarm at 318 Paleto Boulevard, alarm company reports a rear-zone activation. Operate on Fire/EMS Main.”</em> 
+**10. Critical and High-Risk Incidents **
+**10.1 Officer Distress / Emergency Activation **</p>
+<ol>
+<li>Stop routine transmissions and acknowledge the emergency. </li>
+</ol>
+<ol start="2">
+<li>Broadcast the unit call sign and last known location; repeat the location. </li>
+</ol>
+<ol start="3">
+<li>Dispatch the nearest appropriate units and supervisor. </li>
+</ol>
+<ol start="4">
+<li>Attempt to obtain only essential updates: threat, suspect, direction, injuries, and safe approach. </li>
+</ol>
+<ol start="5">
+<li>Maintain the channel restriction and document times/actions. </li>
+</ol>
+<ol start="6">
+<li>Clear the restriction only on command or confirmed stabilization. </li>
+</ol>
+<p>**10.2 Active Threat **
+Create a P1 incident immediately. Confirm exact site, number and description of offenders, weapons, victims, current location or movement, safe approach, and caller location. Dispatch law enforcement and fire/EMS staging simultaneously. Use a dedicated command/tactical channel if available. 
+**10.3 Mayday / Firefighter Emergency **
+Acknowledge and repeat “Mayday,” hold the channel, capture unit/name, location, assignment, problem, and air/status when provided. Notify incident command and dispatch the locally configured rapid-intervention or additional alarm assignment. </p>
+<p>**10.4 Mass-Casualty Incident **</p>
+<ul>
+<li>Establish one primary incident, command, staging, and medical communications structure. </li>
+</ul>
+<ul>
+<li>Request estimated patient count and hazards without delaying initial response. </li>
+</ul>
+<ul>
+<li>Separate tactical details from transport coordination when channel resources permit. </li>
+</ul>
+<ul>
+<li>Maintain destination and patient tracking only to the degree supported by community mechanics. </li>
+</ul>
+<p>**10.5 Technical Failure **
+If CAD fails, use a temporary written or approved digital log containing time, unit, status, call location, narrative, and disposition. If voice fails, move to the designated backup channel or text procedure. Reconstruct CAD records after restoration and label them as delayed entries. 
+**11. Records Returns and Simulated Hits **
+**11.1 Simulated Hit Definition **
+A simulated hit is a positive fictional CAD response reasonably matching the identifiers submitted in an in-game inquiry. A hit is informational until the requesting unit compares visible identifiers and follows community policy. Dispatch does not direct an arrest solely because the CAD returned a hit. 
+**11.2 Comparison and Alert Procedure **</p>
+<ol>
+<li>Compare the inquiry with the return for exact or reasonably close identifiers. </li>
+</ol>
+<ol start="2">
+<li>Interpret the return: record type, active/inactive status, caution, offense, weapons, limitations, and originating fictional agency. </li>
+</ol>
+<ol start="3">
+<li>Confirm or obtain the requesting unit’s location before broadcasting sensitive hit information. </li>
+</ol>
+<ol start="4">
+<li>Use the approved alert phrase or tone, call the unit, and repeat the location. </li>
+</ol>
+<ol start="5">
+<li>After acknowledgment, disseminate information in the standard order below. </li>
+</ol>
+<ol start="6">
+<li>Mark the simulated record located/confirmed only if the CAD and community policy support it. </li>
+</ol>
+<ol start="7">
+<li>Document the return, confirmation, and disposition in the incident timeline. </li>
+</ol>
+<p>**11.3 Initial Hit Dissemination Order **</p>
+<table>
+<thead>
+<tr>
+  <th><strong>Order</strong></th>
+  <th><strong>Element</strong></th>
+  <th><strong>Purpose</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>1</td>
+  <td>Inquiry identifiers</td>
+  <td>Allows comparison with what the unit submitted.</td>
+</tr>
+<tr>
+  <td>2</td>
+  <td>Type of hit</td>
+  <td>Wanted person, stolen vehicle, missing person, caution, etc.</td>
+</tr>
+<tr>
+  <td>3</td>
+  <td>Cautions / weapons</td>
+  <td>Prioritizes immediate safety information.</td>
+</tr>
+<tr>
+  <td>4</td>
+  <td>Offense / reason</td>
+  <td>States the most serious relevant basis.</td>
+</tr>
+<tr>
+  <td>5</td>
+  <td>Primary visible identifiers</td>
+  <td>Supports on-scene comparison.</td>
+</tr>
+<tr>
+  <td>6</td>
+  <td>Limitations / additional information</td>
+  <td>Notes confirmation, pickup, or scenario restrictions.</td>
+</tr>
+<tr>
+  <td>7</td>
+  <td>“Go ahead” / end phrase</td>
+  <td>Signals completion of the initial return.</td>
+</tr>
+</tbody>
+</table>
+<p>**11.4 Example **
+<em>Allert “2-Lincoln-12, at Alta and Power.” x2 “2-Lincoln12 10-61 information” “Your Illinois plate Alpha-Bravo-123 returns as a simulated stolen vehicle hit. Use caution; record notes a possible weapon. Vehicle is a blue four-door sedan, registered to Alex Morgan.” If the scene is secure, then and or they are in custody and 10-95. Allert, “2-Lincoln-12 is 10-4 scene secure”</em> 
+**11.5 Invalid or Unconfirmed Match **
+If identifiers do not reasonably match, advise “no confirmed match” or “clear” according to the CAD. If unclear, ask the unit to verify plate, state, name spelling, DOB, or vehicle/person descriptors.  
+**12. Interoperability, Mutual Aid, and Special Events **
+**12.1 Mutual Aid **
+Dispatch shall identify the requesting agency, incident, location, requested resources, staging or contact point, and assigned channel. Create one parent incident and attach assisting units when the CAD supports it. </p>
+<p>**12.2 Channel Plan **</p>
+<table>
+<thead>
+<tr>
+  <th><strong>Server Channel</strong></th>
+  <th><strong>Primary Use</strong></th>
+  <th><strong>Control</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>LAW MAIN</td>
+  <td>Routine law and approved security-unit dispatch.</td>
+  <td>Primary dispatcher</td>
+</tr>
+<tr>
+  <td>FIRE/EMS MAIN</td>
+  <td>Fire/EMS alerting and routine dispatch.</td>
+  <td>Fire/EMS dispatcher</td>
+</tr>
+<tr>
+  <td>INTEROP</td>
+  <td>Communications-center and interagency coordination.</td>
+  <td>Designated lead</td>
+</tr>
+<tr>
+  <td>AIR-MEDICAL</td>
+  <td>Fire/EMS coordination with simulated air medical.</td>
+  <td>Fire/EMS dispatcher</td>
+</tr>
+<tr>
+  <td>PAGING</td>
+  <td>Fictional agency alerts and station paging.</td>
+  <td>Fire/EMS dispatcher</td>
+</tr>
+<tr>
+  <td>FIRE MUTUAL AID</td>
+  <td>Multi-department fire operations.</td>
+  <td>Incident command</td>
+</tr>
+<tr>
+  <td>STATE INTEROP</td>
+  <td>Monitored simulated statewide messages.</td>
+  <td>Shift supervisor</td>
+</tr>
+<tr>
+  <td>WEATHER ALERT</td>
+  <td>Weather and community-emergency broadcasts.</td>
+  <td>Shift supervisor</td>
+</tr>
+<tr>
+  <td>OPS / TAC</td>
+  <td>Working incidents, event, marine, or specialty operations.</td>
+  <td>Incident command</td>
+</tr>
+<tr>
+  <td>BACKUP</td>
+  <td>Primary voice failure or overflow.</td>
+  <td>Shift supervisor</td>
+</tr>
+</tbody>
+</table>
+<p>**12.3 Special Events **
+Before a planned event, Communications Command should publish unit call signs, posts, command structure, medical plan, staging, road closures, channel plan, anticipated call types, and demobilization procedure. Routine emergency calls retain priority over event administration. </p>
+<p>**13. Documentation, Quality Assurance, and Complaints **
+**13.1 CAD Narrative Standard **</p>
+<ul>
+<li>Use objective facts and identify the source of information. </li>
+</ul>
+<ul>
+<li>Use commonly understood abbreviations only; never sacrifice clarity for speed. </li>
+</ul>
+<ul>
+<li>Time-stamp material changes, attempts to contact, timer checks, cancellations, and dispositions. </li>
+</ul>
+<ul>
+<li>Correct mistakes with an explanatory note when the system preserves history. </li>
+</ul>
+<p>**13.2 Quality Review **
+Supervisors and CTOs may review CAD logs and permitted recordings for training, policy compliance, and service quality. Reviews should examine location accuracy, priority selection, questioning, dispatch speed, radio control, safety monitoring, documentation, and professionalism. 
+**13.3 Complaint Handling **
+Personnel receiving a complaint shall remain professional, record the basic allegation, preserve relevant call numbers or recordings, and refer the matter to the supervisor. Do not debate discipline or disclose internal staff information. 
+**13.4 Corrective Action **
+Minor errors normally receive coaching and documentation. Repeated performance issues may result in remedial training or loss of qualification. Intentional misuse of restricted information, harassment, falsification, or serious rule violations may be referred directly to community leadership. 
+**14. Communications Training Program **
+**14.1 Program Objective **
+The training program develops a dispatcher who can independently manage routine multi-agency operations, recognize high-risk conditions, maintain accurate CAD records, and coordinate critical incidents with appropriate supervision. </p>
+<p>**14.2 Recommended Phases **</p>
+<table>
+<thead>
+<tr>
+  <th><strong>Phase</strong></th>
+  <th><strong>Focus</strong></th>
+  <th><strong>Minimum Demonstration</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Orientation</td>
+  <td>Rules, systems, channels, terminology, confidentiality, observation.</td>
+  <td>Logs in correctly; identifies roles/channels; navigates CAD.</td>
+</tr>
+<tr>
+  <td>Phase 1 - Law Radio/CAD</td>
+  <td>Unit status, stops, returns, BOLOs, pursuits, timers.</td>
+  <td>Runs a law channel during moderate activity.</td>
+</tr>
+<tr>
+  <td>Phase 2 - Fire/EMS</td>
+  <td>Medical/fire questioning, tones, assignments, command support.</td>
+  <td>Dispatches common fire/EMS incidents correctly.</td>
+</tr>
+<tr>
+  <td>Phase 3 - Call Taking</td>
+  <td>Location, caller control, questioning, narratives, priority.</td>
+  <td>Processes routine and urgent calls with coaching.</td>
+</tr>
+<tr>
+  <td>Phase 4 - Combined Operations</td>
+  <td>Multi-agency workload, prioritization, channel control, failures.</td>
+  <td>Runs a mixed scenario with limited intervention.</td>
+</tr>
+<tr>
+  <td>Release Evaluation</td>
+  <td>Independent shift or scenario evaluation.</td>
+  <td>Meets every critical standard and overall score.</td>
+</tr>
+</tbody>
+</table>
+<p>**14.3 Training Method **</p>
+<ul>
+<li>Explain: CTO states the standard and reason. </li>
+</ul>
+<ul>
+<li>Demonstrate: CTO models the task at normal operating speed. </li>
+</ul>
+<ul>
+<li>Practice: trainee performs the task with coaching. </li>
+</ul>
+<ul>
+<li>Evaluate: trainee performs independently and receives documented feedback. </li>
+</ul>
+<p><strong>14.4 Critical Errors **
+**CRITICAL ERRORS:</strong> Missing or broadcasting the wrong emergency location; ignoring responder-distress traffic; releasing materially unsafe false information; intentionally falsifying CAD; serious confidentiality violation; or losing operational control without requesting help. </p>
+<p>**14.5 Suggested Written/Practical Standards **</p>
+<table>
+<thead>
+<tr>
+  <th><strong>Component</strong></th>
+  <th><strong>Recommended Standard</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Policy knowledge exam</td>
+  <td>80% overall; 100% on designated safety questions.</td>
+</tr>
+<tr>
+  <td>CAD skills check</td>
+  <td>Accurate creation, unit attachment, status, timer, update, and closure.</td>
+</tr>
+<tr>
+  <td>Radio practical</td>
+  <td>Clear transmissions, proper precedence, acknowledgment, and channel control.</td>
+</tr>
+<tr>
+  <td>Scenario practical</td>
+  <td>No critical error and 80% total rubric score.</td>
+</tr>
+<tr>
+  <td>Final observation</td>
+  <td>Two satisfactory sessions or one formal board-approved evaluation.</td>
+</tr>
+</tbody>
+</table>
+<p>**15. Evaluation, Remediation, and Release **
+**15.1 Rating Scale **</p>
+<table>
+<thead>
+<tr>
+  <th><strong>Rating</strong></th>
+  <th><strong>Definition</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>5 - Exceptional</td>
+  <td>Independent, consistently accurate, anticipates needs, and supports others.</td>
+</tr>
+<tr>
+  <td>4 - Above Standard</td>
+  <td>Independent and accurate with only minor non-safety corrections.</td>
+</tr>
+<tr>
+  <td>3 - Meets Standard</td>
+  <td>Acceptable independent performance for the training phase.</td>
+</tr>
+<tr>
+  <td>2 - Needs Improvement</td>
+  <td>Frequent coaching or repeated errors; improvement plan required.</td>
+</tr>
+<tr>
+  <td>1 - Unsatisfactory</td>
+  <td>Unable to perform safely/effectively at the phase level or commits a critical error.</td>
+</tr>
+<tr>
+  <td>N/O</td>
+  <td>Not observed during the rating period.</td>
+</tr>
+</tbody>
+</table>
+<p>**15.2 Remedial Training **
+A remedial plan identifies the specific deficiency, expected standard, practice method, responsible CTO, target date, and measurement. Remediation is developmental, but failure to improve may result in phase extension, reassignment, or removal under community policy. 
+**15.3 Release Recommendation **
+The CTO recommends release only after the trainee demonstrates consistent performance across call taking, law enforcement, fire/EMS, CAD, radio control, documentation, and critical incidents. Final authority rests with Communications Command. </p>
+<p>**Appendix A. Acronyms and Definitions **</p>
+<table>
+<thead>
+<tr>
+  <th><strong>Term</strong></th>
+  <th><strong>FiveM Manual Meaning</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>CAD</td>
+  <td>Computer-aided dispatch platform used by the community.</td>
+</tr>
+<tr>
+  <td>T/C</td>
+  <td>Telecommunicator or dispatcher.</td>
+</tr>
+<tr>
+  <td>CTO</td>
+  <td>Communications Training Officer.</td>
+</tr>
+<tr>
+  <td>DOR</td>
+  <td>Daily Observation Report.</td>
+</tr>
+<tr>
+  <td>LEO</td>
+  <td>Law-enforcement officer character/unit.</td>
+</tr>
+<tr>
+  <td>EMS</td>
+  <td>Emergency medical services.</td>
+</tr>
+<tr>
+  <td>EMD</td>
+  <td>Community-approved emergency medical dispatch process; not real certification.</td>
+</tr>
+<tr>
+  <td>EFD/FSD</td>
+  <td>Community-approved emergency fire-service dispatch process.</td>
+</tr>
+<tr>
+  <td>ELD/LED</td>
+  <td>Community-approved law-enforcement dispatch process.</td>
+</tr>
+<tr>
+  <td>BOLO / 10-68</td>
+  <td>Be-on-the-lookout broadcast.</td>
+</tr>
+<tr>
+  <td>MCI</td>
+  <td>Mass-casualty incident.</td>
+</tr>
+<tr>
+  <td>IC</td>
+  <td>Incident Command.</td>
+</tr>
+<tr>
+  <td>TAC</td>
+  <td>Tactical radio channel.</td>
+</tr>
+<tr>
+  <td>OPS</td>
+  <td>Operational radio channel.</td>
+</tr>
+<tr>
+  <td>RTO</td>
+  <td>Radio/telephone operator role, if used.</td>
+</tr>
+<tr>
+  <td>NCIC / LEADS / NLETS</td>
+  <td>Names used only for fictional in-game record systems; no real access is authorized.</td>
+</tr>
+<tr>
+  <td>ISPERN / IREACH / IFERN</td>
+  <td>Real-world Illinois radio names that must not be used to imply actual access; use fictional server channels instead.</td>
+</tr>
+<tr>
+  <td>MABAS</td>
+  <td>May be simulated as a fictional mutual-aid structure; server policy controls.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Appendix B. Person and Vehicle Descriptions **
+**B.1 Vehicle Description Order **
+**CYMBD-L:</strong> COLOR (top to bottom) - YEAR - MAKE - MODEL - BODY STYLE - DISTINCTIVE MARKINGS - LICENSE/STATE. </p>
+<table>
+<thead>
+<tr>
+  <th><strong>Element</strong></th>
+  <th><strong>Examples / Notes</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Color</td>
+  <td>Primary then secondary; “black over white” if two-tone.</td>
+</tr>
+<tr>
+  <td>Year</td>
+  <td>Exact or approximate range if known.</td>
+</tr>
+<tr>
+  <td>Make / Model</td>
+  <td>Manufacturer and model; do not guess when unsure.</td>
+</tr>
+<tr>
+  <td>Body</td>
+  <td>Two-door, four-door, SUV, van, motorcycle, crew cab, etc.</td>
+</tr>
+<tr>
+  <td>Distinctive markings</td>
+  <td>Damage, decals, tint, rack, wheels, lights, missing panels.</td>
+</tr>
+<tr>
+  <td>License</td>
+  <td>Plate characters and state; repeat ambiguous characters phonetically.</td>
+</tr>
+</tbody>
+</table>
+<p>**B.2 Person Description Order **</p>
+<table>
+<thead>
+<tr>
+  <th><strong>Order</strong></th>
+  <th><strong>Descriptor</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>1</td>
+  <td>Name, if known</td>
+</tr>
+<tr>
+  <td>2</td>
+  <td>Sex/gender presentation as reported and operationally relevant</td>
+</tr>
+<tr>
+  <td>3</td>
+  <td>Race/ethnicity only as reported or visibly described; do not infer beyond need</td>
+</tr>
+<tr>
+  <td>4</td>
+  <td>Approximate age</td>
+</tr>
+<tr>
+  <td>5</td>
+  <td>Height</td>
+</tr>
+<tr>
+  <td>6</td>
+  <td>Weight/build</td>
+</tr>
+<tr>
+  <td>7</td>
+  <td>Hair</td>
+</tr>
+<tr>
+  <td>8</td>
+  <td>Eyes when known</td>
+</tr>
+<tr>
+  <td>9</td>
+  <td>Complexion</td>
+</tr>
+<tr>
+  <td>10</td>
+  <td>Physical identifiers: scars, tattoos, facial hair, mobility aids</td>
+</tr>
+<tr>
+  <td>11</td>
+  <td>Clothing from head to toe: hat, outerwear, shirt, pants/shorts, shoes</td>
+</tr>
+<tr>
+  <td>12</td>
+  <td>Weapon, carried property, direction and method of travel</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Appendix C. CAD Commands and Status Codes **
+**CONFIGURATION REQUIRED:</strong> These shortcuts reflect the requested workflow. Map them to the actual CAD parser and test each command before publishing. </p>
+<table>
+<thead>
+<tr>
+  <th><strong>Input</strong></th>
+  <th><strong>Function</strong></th>
+  <th><strong>Required Data / Result</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>10-41</td>
+  <td>Start duty</td>
+  <td>Adds unit to active roster.</td>
+</tr>
+<tr>
+  <td>10-42</td>
+  <td>End duty</td>
+  <td>Removes unit after confirming clear.</td>
+</tr>
+<tr>
+  <td>10-8</td>
+  <td>Available</td>
+  <td>Marks unit in service.</td>
+</tr>
+<tr>
+  <td>TS / 10-11 / Traffic Stop</td>
+  <td>Create traffic stop</td>
+  <td>Unit, location, vehicle, plate/state, occupants if known.</td>
+</tr>
+<tr>
+  <td>UL</td>
+  <td>Update location</td>
+  <td>New location for current unit/event.</td>
+</tr>
+<tr>
+  <td>[UNIT] 10-20</td>
+  <td>Request/update location</td>
+  <td>Returns or records the specified unit location.</td>
+</tr>
+<tr>
+  <td>10-23 / Arrived</td>
+  <td>On scene</td>
+  <td>Marks arrival and starts applicable timer.</td>
+</tr>
+<tr>
+  <td>10-27</td>
+  <td>Person query</td>
+  <td>Last, first, middle initial, DOB, sex/identifier.</td>
+</tr>
+<tr>
+  <td>10-28</td>
+  <td>Plate query</td>
+  <td>Plate characters and state.</td>
+</tr>
+<tr>
+  <td>CC</td>
+  <td>Create call</td>
+  <td>Opens normal call-creation form/workflow.</td>
+</tr>
+<tr>
+  <td>TM [minutes]</td>
+  <td>Update timer</td>
+  <td>Sets/adds the stated number of minutes.</td>
+</tr>
+<tr>
+  <td>[REMOVE COMMAND]</td>
+  <td>Remove unit/event</td>
+  <td>Define exact permission and confirmation behavior.</td>
+</tr>
+<tr>
+  <td>10-6 / Busy</td>
+  <td>Temporarily unavailable</td>
+  <td>Optional reason.</td>
+</tr>
+<tr>
+  <td>10-7</td>
+  <td>Out of service</td>
+  <td>Temporarily unavailable; local definition required.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Appendix D. Broadcast and Call Templates **
+**D.1 10-68 / BOLO Template **
+**BROADCAST SEQUENCE:</strong> [ALERT 2 - about 3 seconds] “ALL UNITS” - WHAT - WHERE - WHEN. Unkey briefly, then repeat the alert and opening facts. Give vehicle, plate (repeat twice), plate return, person, cautions/weapons, actions, direction, disposition, authority, and expiration/review time. Close with the current in-game time. </p>
+<table>
+<thead>
+<tr>
+  <th><strong>Field</strong></th>
+  <th><strong>Entry</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>What</td>
+  <td></td>
+</tr>
+<tr>
+  <td>Where</td>
+  <td></td>
+</tr>
+<tr>
+  <td>When</td>
+  <td></td>
+</tr>
+<tr>
+  <td>Vehicle: color/year/make/model/body/markings</td>
+  <td></td>
+</tr>
+<tr>
+  <td>Plate/state - repeat twice</td>
+  <td></td>
+</tr>
+<tr>
+  <td>Plate return</td>
+  <td></td>
+</tr>
+<tr>
+  <td>Person description</td>
+  <td></td>
+</tr>
+<tr>
+  <td>Cautions / weapons</td>
+  <td></td>
+</tr>
+<tr>
+  <td>Actions reported</td>
+  <td></td>
+</tr>
+<tr>
+  <td>Direction of travel</td>
+  <td></td>
+</tr>
+<tr>
+  <td>Disposition / action if located</td>
+  <td></td>
+</tr>
+<tr>
+  <td>Authority / originating agency</td>
+  <td></td>
+</tr>
+<tr>
+  <td>Expiration / review time</td>
+  <td></td>
+</tr>
+</tbody>
+</table>
+<p>**D.1.1 10-68 Field and Disposition Guide **</p>
+<table>
+<thead>
+<tr>
+  <th><strong>Field</strong></th>
+  <th><strong>Meaning / Approved Wording</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Common reasons</td>
+  <td>Reckless or impaired driving, unsafe equipment/load, missing or welfare-check subject, leaving a crash, stolen/fleeing vehicle, domestic violence, or person in crisis.</td>
+</tr>
+<tr>
+  <td>MYOC</td>
+  <td>Member/unit makes own case under community policy.</td>
+</tr>
+<tr>
+  <td>Complaint signed</td>
+  <td>Reporting party will sign the fictional complaint.</td>
+</tr>
+<tr>
+  <td>Reasonable grounds</td>
+  <td>Originating unit reports a roleplay basis for an investigative stop.</td>
+</tr>
+<tr>
+  <td>Intelligence only</td>
+  <td>Do not search, arrest, or detain solely on the broadcast.</td>
+</tr>
+<tr>
+  <td>Locate and advise</td>
+  <td>If located, stop only when permitted and advise the originating fictional agency.</td>
+</tr>
+</tbody>
+</table>
+<p><em>Fictional example: “[Alert 2] All units, attempt to locate a black two-door sports car last seen northbound on Great Ocean Highway five minutes ago. Plate 6-Adam-Queen-219, repeat 6-Adam-Queen-219. Vehicle reportedly left an injury crash. Use caution; no weapon reported. If located, stop when lawful under server rules and advise County. Authority 4-Lincoln-21. County clear, 2145.”</em> 
+**D.2 Routine Call Dispatch **
+“[UNIT], respond to [CALL TYPE] at [LOCATION]. [ESSENTIAL DETAILS]. [RESPONSE MODE]. Call [NUMBER].” 
+**D.3 Officer-Safety Alert **
+“[UNIT], County.” [Alert tone if configured.] “[UNIT], and their location.” “[CRITICAL RETURN / CAUTION]. Advise when ready for 10-61 information.” 
+**D.4 Pursuit Intake **
+Primary unit; reason; current location; direction; speed/conditions; vehicle/person description; plate; occupants; weapons; secondary unit; supervisor; assigned channel. 
+**D.5 Fire/EMS Dispatch **
+“[TONE] [AGENCY/UNITS], [INCIDENT] at [LOCATION]. [KEY DETAILS / HAZARDS]. Respond [MODE] on [CHANNEL].” Repeat address. </p>
+<p>**Appendix E. Scenario Bank and Knowledge Check **
+**E.1 Practical Scenarios **</p>
+<table>
+<thead>
+<tr>
+  <th><strong>Scenario</strong></th>
+  <th><strong>Evaluator Injects</strong></th>
+  <th><strong>Expected Performance</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Domestic disturbance</td>
+  <td>Caller changes location; possible knife; child present.</td>
+  <td>Dispatches early, updates priority, obtains descriptions, cross-dispatches EMS if needed.</td>
+</tr>
+<tr>
+  <td>Traffic stop hit</td>
+  <td>Plate returns simulated stolen with weapon caution.</td>
+  <td>Confirms location, alerts unit, follows hit order, documents return.</td>
+</tr>
+<tr>
+  <td>Injury crash</td>
+  <td>Two vehicles, one trapped, fuel leak, blocked roadway.</td>
+  <td>Dispatches law/fire/EMS, captures hazards, assigns safe approach and traffic control.</td>
+</tr>
+<tr>
+  <td>Structure fire</td>
+  <td>Smoke showing, occupant unaccounted, hydrant issue.</td>
+  <td>Tones correct assignment, repeats address, establishes ops/command, requests added resources.</td>
+</tr>
+<tr>
+  <td>Foot pursuit</td>
+  <td>Unit gives broken location updates and suspect description.</td>
+  <td>Holds channel, repeats last location/direction, sends backup, tracks perimeter.</td>
+</tr>
+<tr>
+  <td>CAD outage</td>
+  <td>Two calls arrive while unit statuses are changing.</td>
+  <td>Uses backup log, prioritizes radio, reconstructs records accurately.</td>
+</tr>
+</tbody>
+</table>
+<p>**Appendix F. Daily Observation Report and Sign-Off **</p>
+<table>
+<thead>
+<tr>
+  <th><strong>Trainee</strong></th>
+  <th><strong>CTO</strong></th>
+  <th><strong>Date / Shift</strong></th>
+  <th><strong>Training Phase</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+</tr>
+</tbody>
+</table>
+<p>**F.1 Performance Ratings **</p>
+<table>
+<thead>
+<tr>
+  <th><strong>Category</strong></th>
+  <th><strong>Rating 1-5 / N/O</strong></th>
+  <th><strong>Comments</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Policy and role knowledge</td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>Call-taking control and questioning</td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>Location verification</td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>Priority selection</td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>CAD accuracy and speed</td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>Law radio performance</td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>Fire/EMS radio performance</td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>Unit status and timer monitoring</td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>Critical-incident performance</td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>Professionalism and teamwork</td>
+  <td></td>
+  <td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Appendix G. Local Agency and Unit Numbering **
+**ADOPTION REQUIRED:</strong> These identifiers were adapted from the supplied reference sheets. Leadership must confirm that every range matches the server roster before publication; unassigned numbers shall not be invented. </p>
+<p><strong>G.1 Law-Enforcement and Security Call-Sign Ranges TBD</strong></p>
+<table>
+<thead>
+<tr>
+  <th><strong>Roleplay Agency</strong></th>
+  <th><strong>Call-Sign Range</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>County Sheriff</td>
+  <td>81C, M, A, L, S, K, V, D, P, R 01-12</td>
+</tr>
+<tr>
+  <td>Municipal Police Department</td>
+  <td>TBD</td>
+</tr>
+<tr>
+  <td>Police</td>
+  <td>G-1 through G-30</td>
+</tr>
+<tr>
+  <td>Police</td>
+  <td>6801 through 6809</td>
+</tr>
+<tr>
+  <td>Police</td>
+  <td>43-60 through 43-69</td>
+</tr>
+<tr>
+  <td>Police</td>
+  <td>4001 through 4020</td>
+</tr>
+<tr>
+  <td>Police</td>
+  <td>5501 through 5518</td>
+</tr>
+<tr>
+  <td>Security</td>
+  <td>43-80 through 43-89</td>
+</tr>
+<tr>
+  <td>Lake Security</td>
+  <td>[VERIFY: reference appears to show 43-90 through 43-99A]</td>
+</tr>
+</tbody>
+</table>
+<p>**G.2 Fire Apparatus Numbering **
+Three-digit format: first digit = department; second digit = apparatus type; third digit = unit number. Example: 421 is Stockton Department, Tanker/Tender, Unit 1. </p>
+<table>
+<thead>
+<tr>
+  <th><strong>Department Prefix</strong></th>
+  <th><strong>Roleplay Department</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>1 Los Santos Fire Department</td>
+  <td>1</td>
+</tr>
+<tr>
+  <td>2 Sandy Shores Fire Department</td>
+  <td>2</td>
+</tr>
+<tr>
+  <td>3 Paleto Bay Fire Department</td>
+  <td>3</td>
+</tr>
+<tr>
+  <td>4 Roxwood Fire Department</td>
+  <td>4</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+  <th><strong>Apparatus Digit</strong></th>
+  <th><strong>Type</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>1 + 2</td>
+  <td>Pumper / engine</td>
+</tr>
+<tr>
+  <td>3</td>
+  <td>Ladder truck</td>
+</tr>
+<tr>
+  <td>4</td>
+  <td>Ambulance</td>
+</tr>
+<tr>
+  <td>5</td>
+  <td>Rescue truck</td>
+</tr>
+<tr>
+  <td>6</td>
+  <td>Tanker / tender</td>
+</tr>
+<tr>
+  <td>7</td>
+  <td>Brush unit</td>
+</tr>
+<tr>
+  <td>CAR</td>
+  <td>Utility / command</td>
+</tr>
+</tbody>
+</table>
+<p> <strong>Appendix H. Approved Ten-Code Reference **
+**SINGLE-MEANING RULE:</strong> Plain language remains preferred. If leadership adopts these codes, each code must have exactly one server meaning. The CAD command map in Appendix C controls where a conflict exists until leadership formally changes it. </p>
+<table>
+<thead>
+<tr>
+  <th><strong>Conflict</strong></th>
+  <th><strong>Controlling Meaning in This Manual</strong></th>
+  <th><strong>Legacy Reference Meaning</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>10-11</td>
+  <td>Traffic stop / CAD shortcut</td>
+  <td>Dog case</td>
+</tr>
+<tr>
+  <td>10-27</td>
+  <td>Person query / CAD shortcut</td>
+  <td>Driving status</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+  <th><strong>Code</strong></th>
+  <th><strong>Approved Meaning</strong></th>
+  <th><strong>Code</strong></th>
+  <th><strong>Approved Meaning</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>10-1</td>
+  <td>Unable to copy</td>
+  <td>10-2</td>
+  <td>Signal good</td>
+</tr>
+<tr>
+  <td>10-4</td>
+  <td>Acknowledged</td>
+  <td>10-6</td>
+  <td>Busy</td>
+</tr>
+<tr>
+  <td>10-7</td>
+  <td>Out of service</td>
+  <td>10-8</td>
+  <td>In service</td>
+</tr>
+<tr>
+  <td>10-9</td>
+  <td>Repeat</td>
+  <td>10-11</td>
+  <td>Traffic stop (manual control)</td>
+</tr>
+<tr>
+  <td>10-16</td>
+  <td>Domestic violence incident</td>
+  <td>10-20</td>
+  <td>Location</td>
+</tr>
+<tr>
+  <td>10-21</td>
+  <td>Telephone / call by approved method</td>
+  <td>10-22</td>
+  <td>Disregard</td>
+</tr>
+<tr>
+  <td>10-23</td>
+  <td>Arrived on scene</td>
+  <td>10-24</td>
+  <td>Assignment completed</td>
+</tr>
+<tr>
+  <td>10-25</td>
+  <td>Meet with</td>
+  <td>10-27</td>
+  <td>Person query (manual control)</td>
+</tr>
+<tr>
+  <td>10-28</td>
+  <td>Vehicle registration query</td>
+  <td>10-29</td>
+  <td>Check wanted status</td>
+</tr>
+<tr>
+  <td>10-32</td>
+  <td>Gun / weapon information</td>
+  <td>10-33</td>
+  <td>Emergency traffic</td>
+</tr>
+<tr>
+  <td>10-37</td>
+  <td>Suspicious person/vehicle/activity</td>
+  <td>10-38</td>
+  <td>Stopping suspicious subject/vehicle</td>
+</tr>
+<tr>
+  <td>10-41</td>
+  <td>Beginning shift</td>
+  <td>10-42</td>
+  <td>Ending shift</td>
+</tr>
+<tr>
+  <td>10-43</td>
+  <td>Information</td>
+  <td>10-46</td>
+  <td>Motorist assist</td>
+</tr>
+<tr>
+  <td>10-50</td>
+  <td>Vehicle crash: property damage, injury, or fatal</td>
+  <td>10-51</td>
+  <td>Tow / wrecker</td>
+</tr>
+<tr>
+  <td>10-52</td>
+  <td>Ambulance / EMS</td>
+  <td>10-55</td>
+  <td>Suspected impaired driver</td>
+</tr>
+<tr>
+  <td>10-56</td>
+  <td>Intoxicated person</td>
+  <td>10-60</td>
+  <td>Unit in vicinity</td>
+</tr>
+<tr>
+  <td>10-61</td>
+  <td>Personnel in vicinity</td>
+  <td>10-68</td>
+  <td>BOLO / attempt to locate</td>
+</tr>
+<tr>
+  <td>10-69</td>
+  <td>Message received</td>
+  <td>10-70</td>
+  <td>Fire alarm</td>
+</tr>
+<tr>
+  <td>10-76</td>
+  <td>En route</td>
+  <td>10-78</td>
+  <td>Needs assistance</td>
+</tr>
+<tr>
+  <td>10-79</td>
+  <td>Coroner case / death investigation</td>
+  <td>10-80</td>
+  <td>Pursuit</td>
+</tr>
+<tr>
+  <td>10-90</td>
+  <td>Commercial or business alarm</td>
+  <td>10-95</td>
+  <td>Subject in custody</td>
+</tr>
+<tr>
+  <td>10-96</td>
+  <td>Person in behavioral or mental-health crisis</td>
+  <td>10-99</td>
+  <td>Wanted/stolen response</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Appendix I. Radio, Alert-Tone, and Paging Reference **
+**I.1 Quick Channel Plan TBD</strong></p>
+<table>
+<thead>
+<tr>
+  <th><strong>Channel Label</strong></th>
+  <th><strong>Roleplay Purpose</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>LAW MAIN</td>
+  <td>Primary law/security dispatch</td>
+</tr>
+<tr>
+  <td>FIRE/EMS MAIN</td>
+  <td>Fire/EMS dispatch and backup coordination</td>
+</tr>
+<tr>
+  <td>INTEROP</td>
+  <td>Communications-center and interagency coordination</td>
+</tr>
+<tr>
+  <td>AIR-MEDICAL</td>
+  <td>Simulated out-of-area fire/EMS and air-medical coordination</td>
+</tr>
+<tr>
+  <td>PAGING</td>
+  <td>Agency and station paging</td>
+</tr>
+<tr>
+  <td>FIRE MUTUAL AID</td>
+  <td>Multi-department fire response</td>
+</tr>
+<tr>
+  <td>STATE INTEROP</td>
+  <td>Simulated statewide message monitoring</td>
+</tr>
+<tr>
+  <td>WEATHER ALERT</td>
+  <td>Weather/emergency messaging</td>
+</tr>
+<tr>
+  <td>EVENT INTEROP</td>
+  <td>Planned-event operations</td>
+</tr>
+<tr>
+  <td>MARINE OPS</td>
+  <td>Server marine incidents</td>
+</tr>
+<tr>
+  <td>PUBLIC WORKS</td>
+  <td>Road/highway/public-works coordination</td>
+</tr>
+<tr>
+  <td>BACKUP</td>
+  <td>Primary-channel failure or overflow</td>
+</tr>
+</tbody>
+</table>
+<p>**I.2 Alert-Tone Quick Reference **</p>
+<table>
+<thead>
+<tr>
+  <th><strong>Tone</strong></th>
+  <th><strong>Use</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Alert 1</td>
+  <td>Critical simulated hit or responder-safety return</td>
+</tr>
+<tr>
+  <td>Alert 2</td>
+  <td>Important all-units message / 10-68</td>
+</tr>
+<tr>
+  <td>Alert 3</td>
+  <td>Weather or community emergency</td>
+</tr>
+</tbody>
+</table>
+<p>**I.3 Paging Quick Reference **
+Verify agency and channel → sound the configured alert → read the complete message three times → give the current in-game time → monitor for acknowledgment. Never transmit real radio frequencies or represent server audio as a real emergency system. 
+**Appendix J. Phonetic Alphabet **
+Use this community phonetic alphabet for plates, names, call signs, and other ambiguous characters. Speak one word per letter and repeat the full identifier when safety or accuracy requires it. </p>
+<table>
+<thead>
+<tr>
+  <th><strong>Letter</strong></th>
+  <th><strong>Word</strong></th>
+  <th><strong>Letter</strong></th>
+  <th><strong>Word</strong></th>
+  <th><strong>Letter</strong></th>
+  <th><strong>Word</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>A</td>
+  <td>Adam</td>
+  <td>J</td>
+  <td>John</td>
+  <td>S</td>
+  <td>Sam</td>
+</tr>
+<tr>
+  <td>B</td>
+  <td>Boy</td>
+  <td>K</td>
+  <td>King</td>
+  <td>T</td>
+  <td>Tom</td>
+</tr>
+<tr>
+  <td>C</td>
+  <td>Charles</td>
+  <td>L</td>
+  <td>Lincoln</td>
+  <td>U</td>
+  <td>Union</td>
+</tr>
+<tr>
+  <td>D</td>
+  <td>David</td>
+  <td>M</td>
+  <td>Mary</td>
+  <td>V</td>
+  <td>Victor</td>
+</tr>
+<tr>
+  <td>E</td>
+  <td>Edward</td>
+  <td>N</td>
+  <td>Nora</td>
+  <td>W</td>
+  <td>William</td>
+</tr>
+<tr>
+  <td>F</td>
+  <td>Frank</td>
+  <td>O</td>
+  <td>Ocean</td>
+  <td>X</td>
+  <td>X-Ray</td>
+</tr>
+<tr>
+  <td>G</td>
+  <td>George</td>
+  <td>P</td>
+  <td>Paul</td>
+  <td>Y</td>
+  <td>Young</td>
+</tr>
+<tr>
+  <td>H</td>
+  <td>Henry</td>
+  <td>Q</td>
+  <td>Queen</td>
+  <td>Z</td>
+  <td>Zebra</td>
+</tr>
+<tr>
+  <td>I</td>
+  <td>Ida</td>
+  <td>R</td>
+  <td>Robert</td>
+  <td></td>
+  <td></td>
+</tr>
+</tbody>
+</table>
+
+      </article>
+    </div>
+  </main>
+
+  <div class="foot">Prairie State Roleplay · Communications Division · STARCOM 21 Dispatch</div>
+  <script src="./app.js"></script>
+</body>
+</html>
